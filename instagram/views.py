@@ -4,4 +4,4 @@ from django.shortcuts import render
 # Create your views here.
 
 def home(request):
-    return render('My instagram page')
+    return render( request,'instagram/home.html')
