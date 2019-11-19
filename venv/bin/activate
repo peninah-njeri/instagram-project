@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/pesh/Documents/njeri-moringa-school-projects/instagram-clone/venv"
+VIRTUAL_ENV="/home/pesh/Desktop/Instagram-clone/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
