@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,9 +32,7 @@
         <!-- search form end -->
       
         <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            {{ user.username }}
-          </button>
+          <img class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" style="width:40px; height:40px;" src="/media/icons/profile_single.png" alt="">
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="{% url 'profile' user_id=user.id %}">Profile</a>
             <a class="dropdown-item" href="{%url 'new-post' %}">Create Post</a>
